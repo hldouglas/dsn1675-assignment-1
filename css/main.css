@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+	position: relative;
+	text-align: center;
+	padding-top: 1em;
+}
+
+header h1{
+	display: inline;
+}
+
+header nav li {
+	display: inline;
+	width: 25%;
+	float: left;
+	padding: .5em;
+}
+
+header nav ol {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+header nav{
+	background-color: #552900;
+	margin-top: 1em;
+}
+
+header a{
+	text-decoration: none;
+	color: #fdd3aa;
+}
+
+header li:hover{
+  background-color: #804915;
+}
+
+dt{
+	display: inline-block;
+	width: 30%;
+}
+
+main {
+	padding: 3%;
+	background-color: #fdd3aa;
+}
+
+h2{
+	text-align: center;
+}
