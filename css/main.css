@@ -60,6 +60,10 @@ main {
 	background-color: #fdd3aa;
 }
 
+main img{
+	width: 100%;
+}
+
 h2{
 	text-align: center;
   color: #552900;
@@ -67,6 +71,22 @@ h2{
 
 p{
   color: #804915;
+}
+
+.wiki{
+	width: 100%;
+	background-color: #552900;
+	text-align: center;
+	padding: .5em;
+	margin-bottom: 2em;
+}
+.wiki a{
+	text-decoration: none;
+	color: #fdd3aa;
+}
+
+.wiki:hover{
+  background-color: #804915;
 }
 
 footer {
