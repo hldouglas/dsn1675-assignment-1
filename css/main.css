@@ -17,9 +17,30 @@ header {
   background-color: #d4936a;
 }
 
+header img{
+	width: 40px;
+  left: -50px;
+  position: relative;
+}
+
 header h1{
 	display: inline;
   color: #552900;
+}
+
+.btn{
+	display: inline;
+  right: -50px;
+	background-color: #552900;
+	border-radius: 0.25em;
+	padding: .25em;
+	color: #fdd3aa;
+	position: relative;
+	bottom: 7px;
+}
+
+.btn:hover{
+  background-color: #804915;
 }
 
 header nav li {
@@ -49,14 +70,42 @@ header li:hover{
   background-color: #804915;
 }
 
-dt{
+.banner img{
+	width: 109.2%;
+	margin: 0 -6%;
+  padding-bottom: 1.5em;
+}
+
+.banner p{
+	position: relative;
+	top: -10rem;
+	color: #fdd3aa;
+	text-align: center;
+	margin-bottom: -5em;
+	width: 100%;
+	text-shadow: 5px 5px 10px #552900;
+}
+
+.info li{
 	display: inline-block;
-	width: 45%;
-  font-size: 120%;
+	width: 32%;
+}
+.info{
+	padding: 0;
+}
+.info dt{
+	font-weight: bold;
+}
+.info dl, .info dd{
+	margin: 0;
+  color: #804915;
 }
 
 main {
-	padding: 3%;
+  padding-top: 0;
+	padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 1%;
 	background-color: #fdd3aa;
 }
 
@@ -77,7 +126,7 @@ p{
 	width: 100%;
 	background-color: #552900;
 	text-align: center;
-	padding: .5em;
+	padding: 0.5em;
 	margin-bottom: 2em;
 }
 .wiki a{
