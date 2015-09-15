@@ -118,6 +118,10 @@ h2{
   color: #552900;
 }
 
+h3{
+  color: #552900;
+}
+
 p{
   color: #804915;
 }
@@ -138,6 +142,94 @@ p{
   background-color: #804915;
 }
 
+.buy{
+	width: 100%;
+	text-align: center;
+}
+.buy div{
+background-color: #552900;
+	padding: 0.5em 1em;
+	margin: 0 2.65%;
+	width: 44%;
+	display: inline-block;
+}
+.buy a{
+	text-decoration: none;
+	color: #fdd3aa;
+}
+
+.buy div:hover{
+  background-color: #804915;
+}
+
+.playing{
+	width: 109.25%;
+	background-color: #d4936a;
+	text-align: center;
+	padding: .5em;
+	margin-bottom: -0.65em;
+	margin-left: -6%;
+	color: #552900;
+	margin-top:2em;
+}
+figure{
+	margin: 1em -1.15em 0 -1.15em;
+}
+.banner2 figcaption{
+	position: relative;
+	top: -11rem;
+	color: #552900;
+	text-align: center;
+	margin-bottom: -7em;
+	width: 100%;
+	text-shadow: 1px 1px 1px #552900;
+}
+
+.btn2{
+	display: inline;
+	background-color: #552900;
+	border-radius: 0.5em;
+	padding: .4em;
+	color: #fdd3aa;
+	position: relative;
+	text-shadow: none;
+}
+.btn2 a{
+	text-decoration: none;
+}
+
+.btn2:hover{
+  background-color: #804915;
+}
+
+.days ol{
+	width: 75%;
+	margin: 0;
+	padding: 0;
+}
+
+.days{
+  color: #552900;
+}
+
+main li{
+  display: inline;
+}
+
 footer {
   padding: 0.5em;
+  background-color: #804915;
+}
+
+footer p, aside{
+  color: #fdd3aa;
+}
+
+footer a{
+  text-decoration: none;
+  color: #fdd3aa;
+}
+
+footer a:hover{
+  color: #d4936a;
 }
