@@ -99,7 +99,7 @@ body {
 
 .info li{
 	display: inline-block;
-	width: 32%;
+	width: 100%;
 }
 .info{
 	padding: 0;
@@ -127,6 +127,7 @@ main img {
 h2 {
 	text-align: center;
   color: #552900;
+  margin-top: 1em;
 }
 
 h3 {
@@ -158,9 +159,9 @@ p {
 	text-align: center;
 }
 .buy div{
-background-color: #552900;
+  background-color: #552900;
 	padding: 0.5em 1em;
-	margin: 0 2.65%;
+	margin: 1.5% 2.65%;
 	width: 44%;
 	display: inline-block;
 }
@@ -181,19 +182,19 @@ background-color: #552900;
 	margin-bottom: -0.65em;
 	margin-left: -6%;
 	color: #552900;
-	margin-top:2em;
+	margin-top: 1em;
 }
-figure{
-	margin: 1em -1.15em 0 -1.15em;
+.banner2 figure{
+  width: 106%;
+	margin: 0 -3%;
 }
+
 .banner2 figcaption{
 	position: relative;
-	top: -11rem;
 	color: #552900;
 	text-align: center;
 	margin-bottom: -7em;
 	width: 100%;
-	text-shadow: 1px 1px 1px #552900;
 }
 
 .btn2{
