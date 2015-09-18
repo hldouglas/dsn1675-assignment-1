@@ -21,22 +21,17 @@ body {
   margin: 0;
 }
 
-header {
-	position: relative;
+.masthead {
+  position: relative;
 	text-align: center;
 	padding-top: 1em;
   background-color: #d4936a;
 }
 
-header img{
-	width: 40px;
+.logo{
+	width: 44px;
   left: -50px;
-  position: relative;
-}
-
-header h1{
-	display: inline;
-  color: #552900;
+  position: inherit;
 }
 
 .btn{
@@ -44,57 +39,62 @@ header h1{
   right: -50px;
 	background-color: #552900;
 	border-radius: 0.25em;
-	padding: .25em;
-	color: #fdd3aa;
-	position: relative;
-	bottom: 7px;
+	padding: .45em;
+	position: inherit;
+	bottom: 5px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #fdd3aa;
 }
 
 .btn:hover{
   background-color: #804915;
 }
 
-header nav li {
-	display: inline;
-	width: 25%;
-	float: left;
-	padding: 0.5em;
+.title{
+	display: block;
+  color: #552900;
+  font-size: 2.2rem;
+  text-align: center;
 }
 
-header nav ol {
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #552900;
+  clear: both;
 }
 
-header nav{
-	background-color: #552900;
-	margin-top: 1em;
+.nav a {
+  display: block;
+  padding: 0.5em 1em;
+  color: #fdd3aa;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: left;
 }
 
-header a{
-	text-decoration: none;
-	color: #fdd3aa;
-}
-
-header li:hover{
+.nav a:hover {
   background-color: #804915;
 }
 
-.banner img{
-	width: 109.2%;
-	margin: 0 -6%;
-  padding-bottom: 1.5em;
+.banner figure {
+	width: 106%;
+	margin: 0 -3%;
 }
 
-.banner p{
+.banner figcaption {
 	position: relative;
-	top: -10rem;
-	color: #fdd3aa;
 	text-align: center;
 	margin-bottom: -5em;
 	width: 100%;
-	text-shadow: 5px 5px 10px #552900;
+}
+
+.banner p {
+  margin: 0;
 }
 
 .info li{
@@ -120,24 +120,24 @@ main {
 	background-color: #fdd3aa;
 }
 
-main img{
+main img {
 	width: 100%;
 }
 
-h2{
+h2 {
 	text-align: center;
   color: #552900;
 }
 
-h3{
+h3 {
   color: #552900;
 }
 
-p{
+p {
   color: #804915;
 }
 
-.wiki{
+.wiki {
 	width: 100%;
 	background-color: #552900;
 	text-align: center;
