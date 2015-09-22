@@ -49,11 +49,11 @@ body {
   color: #fdd3aa;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: #804915;
 }
 
-.title{
+.title {
 	display: block;
   color: #552900;
   font-size: 2.2rem;
@@ -81,26 +81,26 @@ body {
   background-color: #804915;
 }
 
-.banner figure {
-	width: 106%;
-	margin: 0 -3%;
+.banner {
+	background-image: url(../images/maerten.jpg);
+  background-position: center;
+	margin: 0 -4%;
+	padding: 1em;
+	background-size: cover;
 }
-
-.banner figcaption {
-	position: relative;
+.banner p{
+	top: -6rem;
+	color: #fdd3aa;
 	text-align: center;
-	margin-bottom: -5em;
 	width: 100%;
-}
-
-.banner p {
-  margin: 0;
+	margin: 0;
 }
 
 .info li{
 	display: inline-block;
 	width: 100%;
 }
+
 .info{
 	padding: 0;
 }
@@ -175,42 +175,42 @@ p {
 }
 
 .playing{
-	width: 109.25%;
-	background-color: #d4936a;
+	width: 111.6%;
+	background-color: #552900;
 	text-align: center;
 	padding: .5em;
-	margin-bottom: -0.65em;
+	margin-bottom: 0;
 	margin-left: -6%;
-	color: #552900;
-	margin-top: 1em;
-}
-.banner2 figure{
-  width: 106%;
-	margin: 0 -3%;
+	color: #fdd3aa;
+	margin-top: 2em;
 }
 
-.banner2 figcaption{
-	position: relative;
-	color: #552900;
+.banner2 {
+	background-image: url(../images/maroti.jpg);
+  background-position: center;
+	margin: 0 -4%;
+	padding: 1em;
+	background-size: cover;
+	color: white;
 	text-align: center;
-	margin-bottom: -7em;
-	width: 100%;
+	width: 108%;
 }
 
-.btn2{
+.btn2 {
 	display: inline;
 	background-color: #552900;
 	border-radius: 0.5em;
 	padding: .4em;
 	color: #fdd3aa;
 	position: relative;
-	text-shadow: none;
+  text-decoration: none;
 }
-.btn2 a{
+
+.btn2 a {
 	text-decoration: none;
 }
 
-.btn2:hover{
+.btn2:hover {
   background-color: #804915;
 }
 
