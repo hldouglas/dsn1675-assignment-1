@@ -252,15 +252,9 @@ footer a:hover {
 }
 
 @media only screen and (min-width: 20em) {
-  .masthead {
-    padding-bottom: 75px;
   }
   .nav {
-    margin-top: 75px;
-  }
-
-  .nav ol {
-
+    overflow: hidden;
   }
 
   .nav a {
@@ -298,7 +292,6 @@ footer a:hover {
 
   .title {
     margin: 0.5em 1em;
-    height: .5em;
   }
 
   main {
@@ -334,7 +327,7 @@ footer a:hover {
 }
 
 @media only screen and (min-width: 25em) {
-  .nav a{
+  .nav a {
     width: 25%;
   }
 }
