@@ -356,11 +356,6 @@ footer a:hover {
 
 @media only screen and (min-width: 35em) {
 
-  html {
-    font-size: 110%;
-    line-height: 1.4;
-  }
-
   .title {
     padding: 0;
     padding-bottom: 16px;
@@ -376,6 +371,15 @@ footer a:hover {
   	padding: 0.5em;
     top: 42px;
     right: calc(12% - 47px);
+  }
+
+}
+
+@media only screen and (min-width: 37.5em) {
+
+  html {
+    font-size: 106.3%;
+    line-height: 1.4;
   }
 
 }
@@ -433,7 +437,7 @@ footer a:hover {
 @media only screen and (min-width: 60em) {
 
   html {
-    font-size: 120%;
+    font-size: 118.8%;
     line-height: 1.5;
   }
 
@@ -465,6 +469,42 @@ footer a:hover {
   .banner2 {
     padding-top: 7em;
     padding-bottom: 7em;
+  }
+
+}
+
+@media only screen and (min-width: 93.75em) {
+
+  html {
+    font-size: 125%;
+  }
+
+}
+
+@media only screen and (min-width: 100em) {
+
+  .banner p {
+    padding-top: 11em;
+    padding-bottom: 11em;
+  }
+
+  .banner2 {
+    padding-top: 10em;
+    padding-bottom: 10em;
+  }
+
+}
+
+@media only screen and (min-width: 125em) {
+
+  .banner p {
+    padding-top: 15em;
+    padding-bottom: 15em;
+  }
+
+  .banner2 {
+    padding-top: 12em;
+    padding-bottom: 12em;
   }
 
 }
