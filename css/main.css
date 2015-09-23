@@ -58,7 +58,7 @@ body {
   font-size: 2.2rem;
   text-align: center;
   padding-top: 0.75em;
-  padding-bottom: 0.75em;
+  padding-bottom: 0.7em;
   margin: 0;
 }
 
@@ -91,6 +91,7 @@ body {
 	padding: 1em;
 	background-size: cover;
   width: 107%;
+  padding-bottom: 1.5em;
 }
 
 .banner p {
@@ -195,12 +196,13 @@ p {
 .banner2 {
 	background-image: url(../images/maroti.jpg);
   background-position: center;
+  background-repeat: no-repeat;
 	margin: 0 -4%;
 	padding: 1em;
 	background-size: cover;
-	color: white;
 	text-align: center;
 	width: 107%;
+  padding-bottom: 3em;
 }
 
 .btn2 {
@@ -222,7 +224,7 @@ a {
 }
 
 .days ol {
-	width: 75%;
+	width: 90%;
 	margin: 0;
 	padding: 0;
 }
@@ -236,7 +238,7 @@ main li {
 }
 
 footer {
-  padding: 0.5em;
+  padding: 0.75em;
   background-color: #804915;
 }
 
@@ -253,7 +255,18 @@ footer a:hover {
   color: #d4936a;
 }
 
+.wrapper {
+  max-width: 40em;
+  margin: 0 auto;
+}
+
 @media only screen and (min-width: 20em) {
+
+  .title {
+    padding-top: 1em;
+    padding-bottom: 0.2em;
+  }
+
   .nav {
     overflow: hidden;
   }
@@ -274,8 +287,6 @@ footer a:hover {
     padding: 1.5em 1.5em;
 	  margin: 0 -5.4%;
     width: 111%;
-    background-size:100% 100%;
-    min-height: 100%;
   }
 
   .btn {
@@ -330,12 +341,58 @@ footer a:hover {
 }
 
 @media only screen and (min-width: 25em) {
+
   .nav a {
     width: 25%;
   }
+
+  .banner p {
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+
+}
+
+@media only screen and (min-width: 35em) {
+
+  .title {
+    padding: 0;
+    padding-bottom: 16px;
+  }
+
+  .logo {
+    width: 50px;
+    left: calc(12% - 47px);
+    top: 45px;
+  }
+
+  .btn {
+  	padding: 0.5em;
+    top: 42px;
+    right: calc(12% - 47px);
+  }
+
 }
 
 @media only screen and (min-width: 50em) {
+
+  .logo {
+    width: 60px;
+    left: calc(15% - 47px);
+    top: 40px;
+  }
+
+  .btn {
+  	padding: 0.75em;
+    top: 35px;
+    right: calc(15% - 47px);
+  }
+
+  .banner p {
+    padding-top: 5em;
+    padding-bottom: 5em;
+  }
+
   .left {
     width: 47%;
     margin: 0;
@@ -360,39 +417,39 @@ footer a:hover {
     clear: both;
   }
 
-  footer {
-    text-align: center;
+  .banner2  {
+    padding-top: 4em;
+    padding-bottom: 4em;
   }
+
 }
 
-/*@media only screen and (min-width: 65em;) {
-  main {
-		float: right;
-		width: 70%;}
+@media only screen and (min-width: 65em) {
 
-  .masthead {
-  	width: 30%;
-  	float: left;
-  	position: fixed;
+  .logo {
+    width: 100px;
+    left: calc(15% - 47px);
+    top: 25px;
   }
 
-  .title {
-    display: inline-block;
-    height: 3em;
-    margin: 2em 0 0 0;
-    margin-top: 2.35em;
+  .btn {
+  	padding: 1.25em;
+    top: 27px;
+    right: calc(15% - 47px);
   }
 
-  .nav a{
-  	display: inline;
-  	padding: 0.5em;
-  	text-align: left;
-  	float: none;
+}
+
+@media only screen and (min-width: 70em) {
+
+  .banner p {
+    padding-top: 8em;
+    padding-bottom: 8em;
   }
 
-  .banner {
-    position: absolute;
-    left: calc(50% - 52.5px);
-    width: 105px;
+  .banner2 {
+    padding-top: 7em;
+    padding-bottom: 7em;
   }
-}*/
+
+}
