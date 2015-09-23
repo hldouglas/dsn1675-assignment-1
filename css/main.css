@@ -332,3 +332,45 @@ footer a:hover {
     width: 111.5%;
   }
 }
+
+@media only screen and (min-width: 25em) {
+  .nav a{
+    width: 25%;
+  }
+}
+
+@media only screen and (min-width: 50em) {
+  .left {
+    width: 47%;
+    margin: 0;
+    float: left;
+    clear: left;
+  }
+
+  .right {
+    width: 47%;
+    margin: 0;
+    float: right;
+  }
+
+  .center {
+    width: 47%;
+    margin: 0;
+    float: left;
+    margin-left: 26.5%;
+  }
+
+  h2 {
+    clear: both;
+  }
+
+  footer {
+    padding-left: 17.1em;
+    padding-right: 17.1em;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 65em;) {
+  
+}
