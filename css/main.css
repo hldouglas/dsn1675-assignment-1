@@ -22,7 +22,6 @@ body {
 }
 
 .masthead {
-  position: relative;
 	text-align: center;
 	padding-top: 1em;
   background-color: #d4936a;
@@ -30,18 +29,18 @@ body {
 
 .logo{
 	width: 44px;
-  left: -50px;
-  position: inherit;
+  left: calc(25% - 45px);
+  position: absolute;
 }
 
 .btn{
 	display: inline;
-  right: -50px;
+  position: relative;
+  left: 35%;
 	background-color: #552900;
 	border-radius: 0.25em;
 	padding: .45em;
-	position: inherit;
-	bottom: 5px;
+	top: 5px;
 }
 
 .btn a {
@@ -58,6 +57,9 @@ body {
   color: #552900;
   font-size: 2.2rem;
   text-align: center;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+  margin: 0;
 }
 
 .nav {
@@ -87,8 +89,9 @@ body {
 	margin: 0 -4%;
 	padding: 1em;
 	background-size: cover;
+  width: 107%;
 }
-.banner p{
+.banner p {
 	top: -6rem;
 	color: #fdd3aa;
 	text-align: center;
@@ -96,9 +99,10 @@ body {
 	margin: 0;
 }
 
-.info li{
+.info li {
 	display: inline-block;
 	width: 100%;
+  vertical-align: top;
 }
 
 .info{
@@ -145,37 +149,38 @@ p {
 	padding: 0.5em;
 	margin-bottom: 2em;
 }
-.wiki a{
+
+.wiki a {
 	text-decoration: none;
 	color: #fdd3aa;
 }
 
-.wiki:hover{
+.wiki:hover {
   background-color: #804915;
 }
 
-.buy{
+.buy {
 	width: 100%;
 	text-align: center;
 }
-.buy div{
+.buy div {
   background-color: #552900;
 	padding: 0.5em 1em;
 	margin: 1.5% 2.65%;
 	width: 44%;
 	display: inline-block;
 }
-.buy a{
+.buy a {
 	text-decoration: none;
 	color: #fdd3aa;
 }
 
-.buy div:hover{
+.buy div:hover {
   background-color: #804915;
 }
 
-.playing{
-	width: 111.6%;
+.playing {
+	width: 109%;
 	background-color: #552900;
 	text-align: center;
 	padding: .5em;
@@ -193,7 +198,7 @@ p {
 	background-size: cover;
 	color: white;
 	text-align: center;
-	width: 108%;
+	width: 107%;
 }
 
 .btn2 {
@@ -206,25 +211,25 @@ p {
   text-decoration: none;
 }
 
-.btn2 a {
-	text-decoration: none;
+a {
+   text-decoration: none;
 }
 
 .btn2:hover {
   background-color: #804915;
 }
 
-.days ol{
+.days ol {
 	width: 75%;
 	margin: 0;
 	padding: 0;
 }
 
-.days{
+.days {
   color: #552900;
 }
 
-main li{
+main li {
   display: inline;
 }
 
@@ -233,15 +238,97 @@ footer {
   background-color: #804915;
 }
 
-footer p, aside{
+footer p, aside {
   color: #fdd3aa;
 }
 
-footer a{
+footer a {
   text-decoration: none;
   color: #fdd3aa;
 }
 
-footer a:hover{
+footer a:hover {
   color: #d4936a;
+}
+
+@media only screen and (min-width: 20em) {
+  .masthead {
+    padding-bottom: 75px;
+  }
+  .nav {
+    margin-top: 75px;
+  }
+
+  .nav ol {
+
+  }
+
+  .nav a {
+    display: inline;
+	  width: 50%;
+	  float: left;
+	  padding: .5em;
+	  text-align: center;
+  }
+
+  .banner p {
+    top: -8rem;
+  }
+
+  .banner {
+    padding: 1.5em 1.5em;
+	  margin: 0 -5.4%;
+    width: 111%;
+  }
+
+  .btn {
+	  color: white;
+    position: absolute;
+	  top: 1.25em;
+    right: 1.75em;
+    width: auto;
+    left: auto;
+  }
+
+  .logo {
+    width: 45px;
+    top: 1.5em;
+    left: 1.5em;
+  }
+
+  .title {
+    margin: 0.5em 1em;
+    height: .5em;
+  }
+
+  main {
+	  padding:0 5% 5% 5%;
+  }
+
+  h2 {
+	  font-size: 1.5em;
+  }
+
+  .info div {
+    width: 32%;
+    text-align: center;
+  }
+
+  .days ol {
+	   width: 55%;
+  }
+
+  .buy div {
+    margin: 0 2.5%;
+    width: 44%;
+  }
+
+  .playing {
+    width: 111.5%;
+  }
+
+  .banner2 {
+    margin: 0 -6%;
+    width: 111.5%;
+  }
 }
