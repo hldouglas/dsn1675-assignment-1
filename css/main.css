@@ -86,11 +86,13 @@ body {
 .banner {
 	background-image: url(../images/maerten.jpg);
   background-position: center;
+  background-repeat: no-repeat;
 	margin: 0 -4%;
 	padding: 1em;
 	background-size: cover;
   width: 107%;
 }
+
 .banner p {
 	top: -6rem;
 	color: #fdd3aa;
@@ -252,7 +254,6 @@ footer a:hover {
 }
 
 @media only screen and (min-width: 20em) {
-  }
   .nav {
     overflow: hidden;
   }
@@ -273,6 +274,8 @@ footer a:hover {
     padding: 1.5em 1.5em;
 	  margin: 0 -5.4%;
     width: 111%;
+    background-size:100% 100%;
+    min-height: 100%;
   }
 
   .btn {
