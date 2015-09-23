@@ -453,3 +453,26 @@ footer a:hover {
   }
 
 }
+
+@media print {
+
+  .logo, .btn, .nav {
+    display: none;
+  }
+
+  .wiki a {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    text-indent: 100%;
+    white-space: nowrap;
+  }
+
+  .wiki a::after {
+    content: attr(href);
+    position: absolute;
+    left: 0;
+    text-indent: 0;
+  }
+
+}
