@@ -365,12 +365,38 @@ footer a:hover {
   }
 
   footer {
-    padding-left: 17.1em;
-    padding-right: 17.1em;
     text-align: center;
   }
 }
 
-@media only screen and (min-width: 65em;) {
-  
-}
+/*@media only screen and (min-width: 65em;) {
+  main {
+		float: right;
+		width: 70%;}
+
+  .masthead {
+  	width: 30%;
+  	float: left;
+  	position: fixed;
+  }
+
+  .title {
+    display: inline-block;
+    height: 3em;
+    margin: 2em 0 0 0;
+    margin-top: 2.35em;
+  }
+
+  .nav a{
+  	display: inline;
+  	padding: 0.5em;
+  	text-align: left;
+  	float: none;
+  }
+
+  .banner {
+    position: absolute;
+    left: calc(50% - 52.5px);
+    width: 105px;
+  }
+}*/
